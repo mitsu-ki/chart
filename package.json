@@ -1,5 +1,5 @@
 {
-  "name": "chart",
+  "name": "chartrend",
   "version": "1.0.0",
   "description": "svg chart library",
   "main": "index.js",

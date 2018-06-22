@@ -1,5 +1,5 @@
 "use strict";
 
-import Chart from "scripts/chart";
+import Chartrend from "scripts/chartrend";
 
-window.Chart = Chart;
+window.Chartrend = Chartrend;

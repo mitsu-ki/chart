@@ -1,6 +1,6 @@
 "use strict";
 
-function chart(el, data) {
+function chartrend(el, data) {
   let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttributeNS(null, "version", "1.1");
   svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
@@ -16,4 +16,4 @@ function chart(el, data) {
   el.appendChild(svg);
 }
 
-export default chart;
+export default chartrend;

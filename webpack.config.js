@@ -7,7 +7,7 @@ const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 module.exports = {
   context: path.join(__dirname, "/src/scripts"),
   entry: {
-    chart: "./index.js"
+    chartrend: "./index.js"
   },
   output: {
     path: path.join(

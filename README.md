@@ -1,4 +1,4 @@
-# chart.js
+# chartrend.js
 
 受け取ったデータを SVG で出力するライブラリです。
 
