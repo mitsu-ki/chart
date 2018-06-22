@@ -7,8 +7,8 @@ function chartrend(el, data) {
   svg.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink");
 
   let text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-  text.setAttribute("x", 10);
-  text.setAttribute("y", 15);
+  text.setAttribute("x", "10");
+  text.setAttribute("y", "15");
   text.textContent = "It is under development now.";
 
   svg.appendChild(text);

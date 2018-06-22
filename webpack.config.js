@@ -7,7 +7,7 @@ const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 module.exports = {
   context: path.join(__dirname, "/src/scripts"),
   entry: {
-    chartrend: "./index.js"
+    chartrend: "./index.ts"
   },
   output: {
     path: path.join(
@@ -18,15 +18,16 @@ module.exports = {
     publicPath: "/scripts/"
   },
   resolve: {
-    modules: [path.resolve(__dirname, "src"), "node_modules"]
+    extensions: [".ts", ".js", ".json"]
+    // modules: [path.resolve(__dirname, "src"), "node_modules"]
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.ts$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: "babel-loader",
+          loader: "ts-loader",
           options: {}
         }
       }
